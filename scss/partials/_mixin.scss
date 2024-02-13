@@ -1,0 +1,96 @@
+// ***** primary btn *****
+
+.primarybtn {
+  position: relative;
+  background-color: transparent;
+  padding: 10px 35px;
+  border: 1px solid $primary-color;
+  color: white;
+  @media (max-width: 991px) {
+    padding: 10px 25px;
+  }
+  @media (max-width: 768px) {
+    padding: 10px 16px;
+  }
+  &:hover {
+    border: 1px solid $primary-color;
+    color: $text-color;
+    &::before {
+      height: 0%;
+    }
+  }
+  &::before {
+    background-color: $primary-color;
+    transition: 0.3s ease-out;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+  }
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.2s 0.1s;
+    text-transform: capitalize;
+    &:hover {
+      transition: 0.2s 0.1s;
+    }
+  }
+}
+
+// ***** secondary btn *****
+.secondarybtn {
+  position: relative;
+  background-color: transparent;
+  padding: 10px 35px;
+  border: 1px solid $secondary-color;
+  color: $text-color;
+  @media (max-width: 991px) {
+    padding: 10px 25px;
+  }
+  @media (max-width: 768px) {
+    padding: 10px 16px;
+  }
+  &:hover {
+    border: 1px solid $secondary-color;
+    color: $white-color;
+    &::before {
+      height: 100%;
+      background-color: $secondary-color;
+    }
+  }
+  &::before {
+    transition: 0.3s ease-out;
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0%;
+    width: 100%;
+  }
+  span {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.2s 0.1s;
+    text-transform: capitalize;
+    &:hover {
+      transition: 0.2s 0.1s;
+    }
+  }
+}
