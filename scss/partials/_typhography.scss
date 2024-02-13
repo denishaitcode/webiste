@@ -1,0 +1,136 @@
+// ************ font-size ***********
+
+.text-65 {
+  font-size: 65px;
+  line-height: 70px;
+  @media (max-width: 991px) {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  @media (max-width: 768px) {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  @media (max-width: 576px) {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+.text-40 {
+  font-size: 40px;
+  @media (max-width: 991px) {
+    font-size: 35px;
+  }
+  @media (max-width: 768px) {
+    font-size: 26px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+
+.text-45 {
+  font-size: 45px;
+  line-height: 51px;
+  @media (max-width: 991px) {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  @media (max-width: 768px) {
+    font-size: 26px;
+    line-height: 20px;
+  }
+  @media (max-width: 576px) {
+    font-size: 20px;
+  }
+}
+
+.text-30 {
+  font-size: 30px;
+  @media (max-width: 991px) {
+    font-size: 24px;
+  }
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+
+.text-35 {
+  font-size: 35px;
+  @media (max-width: 991px) {
+    font-size: 26px;
+  }
+  @media (max-width: 768px) {
+    font-size: 20px;
+  }
+  @media (max-width: 576px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+.text-25 {
+  font-size: 25px;
+  @media (max-width: 991px) {
+    font-size: 20px;
+  }
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+.text-20 {
+  font-size: 20px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+.text-18 {
+  font-size: 18px;
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+.text-16 {
+  font-size: 16px;
+  @media (max-width: 575px) {
+    font-size: 14px;
+  }
+}
+.text-14 {
+  font-size: 14px;
+}
+.text-12 {
+  font-size: 12px;
+}
+// ************ font-size ***********
+
+// ************ font-weight ***********
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: bold;
+}
+// ************ font-weight ***********
