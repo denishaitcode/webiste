@@ -4,8 +4,6 @@
     padding-bottom: 20px;
   }
   .subtitle {
-    max-width: 600px;
-    margin: auto;
     padding-bottom: 25px;
     @media (max-width: 767px) {
       padding-bottom: 20px;
@@ -53,11 +51,13 @@
       }
       .dropdown-menus {
         position: absolute;
-        top: 34px;
+        top: 26px;
         left: 0;
         border: 1px solid $border-color;
         min-width: 200px;
         display: none;
+        background-color: $white-color;
+        z-index: 99;
         a {
           padding: 12px;
           &:hover {
@@ -204,6 +204,57 @@
   }
 }
 
+// featuere css
+.feature-section {
+  padding: 100px 0;
+  @media (max-width: 991px) {
+    padding: 70px 0;
+  }
+  @media (max-width: 768px) {
+    padding: 50px 0;
+  }
+  @media (max-width: 575px) {
+    padding: 30px 0;
+  }
+  .feature-card {
+    .feature-slick {
+      padding: 25px 0 0 0;
+      .cards {
+        border: 1px solid $secondary-color;
+        padding: 25px 10px;
+        h5 {
+          padding: 25px 0;
+          color: $secondary-color;
+        }
+        &:hover {
+          img {
+            transform: scale(1.1);
+            transition: 0.2s;
+          }
+        }
+      }
+      .slick-dots {
+        margin-top: 20px;
+        bottom: -50px;
+        li {
+          button {
+            &::before {
+              color: $secondary-color;
+              font-size: 10px;
+              opacity: 1;
+              width: 19px;
+            }
+          }
+        }
+        .slick-active {
+          border: 1px solid $secondary-color;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
+}
+
 // community css
 .community {
   p {
@@ -212,7 +263,7 @@
   img {
     width: auto !important;
   }
-  .your-class{
+  .your-class {
     padding: 28px 0 15px 0;
   }
 }
@@ -273,9 +324,6 @@
   }
   @media (max-width: 575px) {
     padding: 30px 0;
-  }
-  .subtitle {
-    max-width: 700px;
   }
   .dummytext {
     max-width: 720px;
