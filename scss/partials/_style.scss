@@ -119,7 +119,7 @@
     .toprightsection {
       position: relative;
       .girlphoto {
-        background-image: url("../../Images/hero-border.jpg");
+        background-image: url("../../Assets/hero-border.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         position: relative;
@@ -160,7 +160,7 @@
       }
     }
     .topbottomsection {
-      background-image: url("../../Images/hero-border.webp");
+      background-image: url("../../Assets/hero-border.webp");
       background-repeat: no-repeat;
       background-size: contain;
       position: relative;
@@ -204,6 +204,19 @@
   }
 }
 
+// community css
+.community {
+  p {
+    color: $text-color;
+  }
+  img {
+    width: auto !important;
+  }
+  .your-class{
+    padding: 28px 0 15px 0;
+  }
+}
+
 // frequency css
 .faquestion {
   padding: 100px 0px;
@@ -232,7 +245,7 @@
       border: 0;
       button {
         &::after {
-          background-image: url("../../Images/plus.svg");
+          background-image: url("../../Assets/plus.svg");
         }
         &:not(.collapsed) {
           background-color: transparent;
@@ -240,7 +253,7 @@
           color: $primary-color;
           box-shadow: none;
           &::after {
-            background-image: url("../../Images/minus.svg");
+            background-image: url("../../Assets/minus.svg");
             background-position: center;
           }
         }

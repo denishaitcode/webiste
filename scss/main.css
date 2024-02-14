@@ -406,7 +406,7 @@
   position: relative;
 }
 .bannersection .sectionright .toprightsection .girlphoto {
-  background-image: url("../../Images/hero-border.jpg");
+  background-image: url("../../Assets/hero-border.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -454,7 +454,7 @@
   transition: 0.5s ease-in-out;
 }
 .bannersection .sectionright .topbottomsection {
-  background-image: url("../../Images/hero-border.webp");
+  background-image: url("../../Assets/hero-border.webp");
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
@@ -497,6 +497,16 @@
   color: #ff6a58;
 }
 
+.community p {
+  color: #1b1117;
+}
+.community img {
+  width: auto !important;
+}
+.community .your-class {
+  padding: 28px 0 15px 0;
+}
+
 .faquestion {
   padding: 100px 0px;
   background: #f6fcff;
@@ -536,7 +546,7 @@
   border: 0;
 }
 .faquestion .frequen-question .accordion-item button::after {
-  background-image: url("../../Images/plus.svg");
+  background-image: url("../../Assets/plus.svg");
 }
 .faquestion .frequen-question .accordion-item button:not(.collapsed) {
   background-color: transparent;
@@ -545,7 +555,7 @@
   box-shadow: none;
 }
 .faquestion .frequen-question .accordion-item button:not(.collapsed)::after {
-  background-image: url("../../Images/minus.svg");
+  background-image: url("../../Assets/minus.svg");
   background-position: center;
 }
 
