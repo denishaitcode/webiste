@@ -6,6 +6,7 @@
   padding: 10px 35px;
   border: 1px solid $primary-color;
   color: white;
+  cursor: pointer;
   @media (max-width: 991px) {
     padding: 10px 25px;
   }
@@ -17,6 +18,9 @@
     color: $text-color;
     &::before {
       height: 0%;
+    }
+    span {
+      color: $text-color;
     }
   }
   &::before {
@@ -41,6 +45,7 @@
     width: 100%;
     transition: 0.2s 0.1s;
     text-transform: capitalize;
+    color: $white-color;
     &:hover {
       transition: 0.2s 0.1s;
     }
@@ -54,6 +59,7 @@
   padding: 10px 35px;
   border: 1px solid $secondary-color;
   color: $text-color;
+  cursor: pointer;
   @media (max-width: 991px) {
     padding: 10px 25px;
   }
@@ -66,6 +72,9 @@
     &::before {
       height: 100%;
       background-color: $secondary-color;
+    }
+    span {
+      color: $white-color;
     }
   }
   &::before {
@@ -89,6 +98,7 @@
     width: 100%;
     transition: 0.2s 0.1s;
     text-transform: capitalize;
+    color: $text-color;
     &:hover {
       transition: 0.2s 0.1s;
     }
