@@ -4,6 +4,7 @@
   padding: 10px 35px;
   border: 1px solid #ff6a58;
   color: white;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .primarybtn {
@@ -21,6 +22,9 @@
 }
 .primarybtn:hover::before {
   height: 0%;
+}
+.primarybtn:hover span {
+  color: #1b1117;
 }
 .primarybtn::before {
   background-color: #ff6a58;
@@ -44,6 +48,7 @@
   width: 100%;
   transition: 0.2s 0.1s;
   text-transform: capitalize;
+  color: #fff;
 }
 .primarybtn span:hover {
   transition: 0.2s 0.1s;
@@ -55,6 +60,7 @@
   padding: 10px 35px;
   border: 1px solid #22b0fc;
   color: #1b1117;
+  cursor: pointer;
 }
 @media (max-width: 991px) {
   .secondarybtn {
@@ -73,6 +79,9 @@
 .secondarybtn:hover::before {
   height: 100%;
   background-color: #22b0fc;
+}
+.secondarybtn:hover span {
+  color: #fff;
 }
 .secondarybtn::before {
   transition: 0.3s ease-out;
@@ -95,6 +104,7 @@
   width: 100%;
   transition: 0.2s 0.1s;
   text-transform: capitalize;
+  color: #1b1117;
 }
 .secondarybtn span:hover {
   transition: 0.2s 0.1s;
@@ -557,6 +567,190 @@
 }
 .community .your-class {
   padding: 28px 0 15px 0;
+}
+
+.workspace {
+  padding: 100px 0px;
+  background: #f6fcff;
+}
+.workspace .imagespace {
+  position: relative;
+  z-index: 99;
+}
+.workspace .imagespace img {
+  transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .workspace .imagespace img {
+    width: 100%;
+  }
+}
+.workspace .imagespace img:hover {
+  transform: scale(0.9);
+  transition: 0.3s;
+}
+.workspace .month {
+  color: #ff6a58;
+}
+.workspace .wordcard {
+  background: #fff;
+  box-shadow: 0px 24px 33px 0px rgba(34, 176, 252, 0.1);
+  padding: 30px;
+  position: absolute;
+  z-index: 999;
+}
+@media (max-width: 768px) {
+  .workspace .wordcard {
+    position: inherit;
+    padding: 14px;
+  }
+}
+.workspace .wordcard h2 {
+  color: #1b1117;
+  padding-bottom: 15px;
+}
+.workspace .topsection {
+  margin-bottom: 80px;
+  position: relative;
+}
+.workspace .topsection .wordcard {
+  right: 170px;
+  top: 50px;
+}
+@media (max-width: 1200px) {
+  .workspace .topsection .wordcard {
+    right: 0;
+  }
+}
+.workspace .bottomsection {
+  position: relative;
+}
+.workspace .bottomsection .wordcard {
+  left: 140px;
+  top: 40px;
+  width: 482px;
+}
+@media (max-width: 1200px) {
+  .workspace .bottomsection .wordcard {
+    left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .workspace .bottomsection .wordcard {
+    width: 100%;
+  }
+}
+.workspace .bottomsection .border-class {
+  position: absolute;
+  content: "";
+  height: 240px;
+  width: 240px;
+  top: -80px;
+  right: -70px;
+  border: 17px solid #22b0fc;
+  border-radius: 100%;
+  z-index: -1;
+}
+@media (max-width: 991px) {
+  .workspace .bottomsection .border-class {
+    right: 0;
+  }
+}
+.workspace .bottomsection .fillborder {
+  position: absolute;
+  content: "";
+  height: 400px;
+  width: 400px;
+  bottom: -80px;
+  left: 270px;
+  background-color: #1bceb3;
+  border-radius: 100%;
+  z-index: -1;
+}
+@media (max-width: 1200px) {
+  .workspace .bottomsection .fillborder {
+    left: 0;
+  }
+}
+@media (max-width: 575px) {
+  .workspace .bottomsection .fillborder {
+    height: 240px;
+    width: 240px;
+  }
+}
+.workspace .carddetail {
+  padding-top: 130px;
+}
+.workspace .carddetail .reservecard img {
+  width: 100%;
+}
+.workspace .carddetail .reservecard h5 {
+  color: #1b1117;
+  padding-bottom: 15px;
+}
+.workspace .carddetail .reservecard .cards-body {
+  border: 1px solid #22b0fc;
+  border-top: none;
+  background-color: #fff;
+}
+
+.findplace {
+  background-image: url(../../Assets/find-bg.webp);
+  background-attachment: fixed;
+  position: relative;
+  padding: 50px 0px;
+  z-index: 1;
+}
+.findplace::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(90deg, rgba(252, 191, 91, 0.96) 30.21%, rgba(252, 191, 91, 0.68) 100%);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.findplace h5 {
+  color: #1b1117;
+}
+.findplace h5 span {
+  color: #fff;
+  transition: 0.3s;
+}
+.findplace h5 span:hover {
+  color: #ff6a58;
+  transition: 0.3s;
+}
+.findplace .primarybtn {
+  width: 210px;
+}
+.findplace .form {
+  background-color: #fff;
+  box-shadow: 0px 20px 33px 0px rgba(34, 176, 252, 0.1);
+  padding: 40px 30px;
+  position: relative;
+  top: 80px;
+}
+.findplace .form h5 {
+  padding-bottom: 20px;
+}
+.findplace .form input {
+  border: 0;
+  border-bottom: 1px solid #60565c;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.findplace .form input:focus {
+  outline: 0;
+}
+.findplace .form textarea {
+  padding: 15px 20px;
+  margin: 20px 0;
+}
+.findplace .form textarea:focus {
+  outline: 0;
 }
 
 .princing-section {
