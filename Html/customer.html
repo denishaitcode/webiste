@@ -1,0 +1,71 @@
+<body>
+  <div class="customer-section title-main">
+    <div class="container">
+      <div class="text-center">
+        <p class="text-20 fw-bold maven-pro parttitle">Customers Trust</p>
+        <div class="text-45 font-bold subtitle">
+          What <span>People say</span> about us
+        </div>
+        <p class="maven-pro text-16 dummytext pb-4">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has <br />
+          been the industry's.
+        </p>
+      </div>
+      <div class="customer-slider">
+        <div class="cards-customer">
+          <div>
+            <p class="text-14 maven-pro">
+              Lorem Ipsum is simply dummy text of the printing and <br />
+              typesetting industry. Lorem Ipsum has been the industry's <br />
+              standard dummy text ever since the 1500s, when an unknown <br />
+              printer took a galley of type and scrambled it to make a type
+              <br />
+              specimen book. It has survived not only.
+            </p>
+            <ul class="ps-0 mb-0 d-flex gap-2">
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+              <li><i class="fa-sharp fa-solid fa-star"></i></li>
+            </ul>
+          </div>
+          <div class="custmer-img">
+            <img src="../Assets/customer.jpg" alt="customer" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    $(".customer-slider").slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+          },
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+  </script>
+</body>
