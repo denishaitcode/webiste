@@ -13,9 +13,12 @@
         </p>
       </div>
       <div class="customer-slider">
-        <div class="cards-customer">
-          <div>
-            <p class="text-14 maven-pro">
+        <div class="">
+          <div class="cards-customer">
+            <div class="custmer-img">
+              <img src="../Assets/customer.jpg" alt="customer" />
+            </div>
+            <p class="text-14 maven-pro pb-4">
               Lorem Ipsum is simply dummy text of the printing and <br />
               typesetting industry. Lorem Ipsum has been the industry's <br />
               standard dummy text ever since the 1500s, when an unknown <br />
@@ -23,16 +26,84 @@
               <br />
               specimen book. It has survived not only.
             </p>
-            <ul class="ps-0 mb-0 d-flex gap-2">
-              <li><i class="fa-sharp fa-solid fa-star"></i></li>
-              <li><i class="fa-sharp fa-solid fa-star"></i></li>
-              <li><i class="fa-sharp fa-solid fa-star"></i></li>
-              <li><i class="fa-sharp fa-solid fa-star"></i></li>
-              <li><i class="fa-sharp fa-solid fa-star"></i></li>
-            </ul>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+                <ul class="ps-0 mb-0 pb-2 d-flex gap-2">
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                </ul>
+                <h6 class="text-18 maven-pro pb-2">Judy Curtis</h6>
+                <span class="text-14 maven-pro">Freelancer</span>
+              </div>
+              <div class="commaimage">
+                <img src="../Assets/coma.svg" alt="commaimage" />
+              </div>
+            </div>
           </div>
-          <div class="custmer-img">
-            <img src="../Assets/customer.jpg" alt="customer" />
+        </div>
+        <div>
+          <div class="cards-customer">
+            <div class="custmer-img">
+              <img src="../Assets/custmor2.jpg" alt="customer" />
+            </div>
+            <p class="text-14 maven-pro pb-4">
+              Lorem Ipsum is simply dummy text of the printing and <br />
+              typesetting industry. Lorem Ipsum has been the industry's <br />
+              standard dummy text ever since the 1500s, when an unknown <br />
+              printer took a galley of type and scrambled it to make a type
+              <br />
+              specimen book. It has survived not only.
+            </p>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+                <ul class="ps-0 mb-0 pb-2 d-flex gap-2">
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                </ul>
+                <h6 class="text-18 maven-pro pb-2">Judy Curtis</h6>
+                <span class="text-14 maven-pro">Freelancer</span>
+              </div>
+              <div class="commaimage">
+                <img src="../Assets/coma.svg" alt="commaimage" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cards-customer">
+            <div class="custmer-img">
+              <img src="../Assets/custmor3.jpg" alt="customer" />
+            </div>
+            <p class="text-14 maven-pro pb-4">
+              Lorem Ipsum is simply dummy text of the printing and <br />
+              typesetting industry. Lorem Ipsum has been the industry's <br />
+              standard dummy text ever since the 1500s, when an unknown <br />
+              printer took a galley of type and scrambled it to make a type
+              <br />
+              specimen book. It has survived not only.
+            </p>
+            <div class="d-flex align-items-center justify-content-between">
+              <div>
+                <ul class="ps-0 mb-0 pb-2 d-flex gap-2">
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                  <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                </ul>
+                <h6 class="text-18 maven-pro pb-2">Judy Curtis</h6>
+                <span class="text-14 maven-pro">Freelancer</span>
+              </div>
+              <div class="commaimage">
+                <img src="../Assets/coma.svg" alt="commaimage" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -42,27 +113,14 @@
     $(".customer-slider").slick({
       slidesToShow: 2,
       slidesToScroll: 1,
+      dots: true,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            infinite: true,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 2,
-          },
-        },
-        {
-          breakpoint: 480,
-          settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
+            infinite: true,
           },
         },
       ],
