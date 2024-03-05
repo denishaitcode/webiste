@@ -1259,6 +1259,12 @@
   border-radius: 100%;
 }
 
+.space-feature .feature-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
 .footer {
   background-color: #1b1117;
   color: #fff;
@@ -1335,4 +1341,5 @@ a {
 
 .slick-slide {
   margin: 0 10px;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

@@ -16,10 +16,10 @@
     border-radius: 100%;
   }
 }
-.slick-prev{
+.slick-prev {
   display: none !important;
 }
-.slick-next{
+.slick-next {
   display: none !important;
 }
 .title-main {
@@ -921,6 +921,15 @@
         border-radius: 100%;
       }
     }
+  }
+}
+
+// space-feature css
+.space-feature {
+  .feature-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
   }
 }
 
